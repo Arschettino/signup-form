@@ -22,12 +22,20 @@
 /* Left side of page */
 .left {
     background-image: url("../images/plant.jpg");
-    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height:100%;
     flex: 1;
     min-width: 600px;
+}
+
+@media (max-width:1000px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
 }
 
 .img-container {
