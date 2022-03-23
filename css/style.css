@@ -32,9 +32,12 @@
 @media (max-width:1000px) {
     .wrapper {
         flex-direction: column;
+        height: 1500px;
     }
     .left {
         width: 100%;
+    }
+    .right-top {
     }
 }
 
