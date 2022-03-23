@@ -30,14 +30,15 @@
 }
 
 @media (max-width:1000px) {
+    html,body{
+        overflow-x: hidden;
+    }
     .wrapper {
         flex-direction: column;
         height: 1500px;
     }
     .left {
-        width: 100%;
-    }
-    .right-top {
+        width: 100vw;
     }
 }
 
